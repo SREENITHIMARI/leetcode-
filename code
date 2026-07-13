@@ -1,1 +1,6 @@
-
+"""
+Optimized code for Rotate String in Python for the problem -796-Roatate String 
+"""
+class Solution:
+    def rotateString(self, s: str, goal: str) -> bool:
+        return len(s) == len(goal) and goal in s + s
